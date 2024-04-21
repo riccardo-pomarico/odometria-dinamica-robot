@@ -1,6 +1,7 @@
 # Calcolo dell'odometria di un robot
 
 Corso: Robotics.
+
 Autori: Riccardo Pomarico, Claudio Galimberti, Alexandra Iuga.
 
 L'applicazione è stata realizzata in linguaggio C++ e ha come obiettivo principale il calcolo dell'odometria utilizzando la cinematica adeguata. Ciò include la determinazione delle velocità lineari e angolari del robot tramite i dati provenienti dai codificatori delle ruote e l'applicazione di metodi di integrazione come Euler e Runge-Kutta per il calcolo dell'odometria. Inoltre, è prevista la calibrazione dei parametri del robot per garantire una corrispondenza accurata con la posizione reale.
