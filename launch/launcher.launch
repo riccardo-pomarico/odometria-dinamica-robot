@@ -1,0 +1,14 @@
+<launch>
+
+    <param name="x_initial_pose" value="0.0"/>
+    <param name="y_initial_pose" value="0.0"/>
+    <param name="theta_initial_pose" value="0.0"/>
+
+    <param name="rCalibrated" value="0.0774"/>
+    <param name="shapeCalibrated" value="0.369"/>
+    <param name="nCalibrated" value="42"/>
+
+    <node pkg="homework1" type="robotVelocity" name="robotVelocity"/>
+    <node pkg="homework1" type="robotOdometry" name="robotOdometry"/>
+
+</launch>
